@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf6f9"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/I6_dp"
+            android:text="@string/main_title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/thirty_sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="@dimen/I28_dp"
+            android:layout_height="@dimen/I28_dp"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_images" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView"
+        android:layout_below="@+id/linear_top"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/twenty_five_dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_play_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/twenty_five_dp"
+            android:layout_marginRight="@dimen/twenty_five_dp"
+            android:background="@drawable/custom_button_press_effect"
+            android:text="@string/btn_play_game"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_game_difference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/twenty_five_dp"
+            android:layout_marginTop="@dimen/I5_dp"
+            android:layout_marginRight="@dimen/twenty_five_dp"
+            android:background="@drawable/custom_button_press_effect"
+            android:text="@string/btn_game_difference"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_add_quessiton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/twenty_five_dp"
+            android:layout_marginTop="@dimen/I5_dp"
+            android:layout_marginRight="@dimen/twenty_five_dp"
+            android:background="@drawable/custom_button_press_effect"
+            android:text="@string/add_questions"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_high"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/twenty_five_dp"
+            android:layout_marginTop="@dimen/I5_dp"
+            android:layout_marginRight="@dimen/twenty_five_dp"
+            android:background="@drawable/custom_button_press_effect"
+            android:text="@string/exit"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_home_footer" />
+</RelativeLayout>

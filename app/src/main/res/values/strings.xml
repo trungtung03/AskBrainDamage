@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ask Brain Damage</string>
+    <string name="main_title">Hỏi Ngu</string>
+    <string name="text_hight">Câu:</string>
+    <string name="btn_next">Cày tiếp thôi</string>
+    <string name="btn_play_game">Chơi game</string>
+    <string name="btn_game_difference">Game khác</string>
+    <string name="add_questions">Thêm câu hỏi</string>
+    <string name="exit">Thoát</string>
+    <string name="notifi">Xem video để được cộng thêm 1 lần ngu</string>
+    <string name="watch_now">Xem luôn</string>
+    <string name="watch_later">Để sau</string>
+    <string name="btn_explain">Xem hết video để nhận thêm \nlượt chơi nữa, bạn nhé!\nBạn còn n lượt xem</string>
+    <string name="next">Hỏi tiếp đi</string>
+    <string name="lbl_noti">Xem hết video để nhận thêm \nlượt chơi nữa, bạn nhé!\nBạn còn n lượt xem</string>
+    <string name="lbl_answer">Đáp án: Donald Trump</string>
+    <string name="lbl_score">Điểm: 12</string>
+    <string name="lbl_highscore">Điểm cao nhất: 20</string>
+    <string name="btn_watch">Xem video</string>
+    <string name="btn_play_again">Chơi lại</string>
+    <string name="banner_home_footer">ca-app-pub-70913</string>
+    <string name="tv_question">Cau 1</string>
+    <string name="tv_nb_question">Câu:1/1256</string>
+    <string name="tv_fail">Ngu: 1</string>
+    <string name="tv_author">Của: Sơn Tùng</string>
+    <string name="btn_a">A</string>
+    <string name="btn_b">B</string>
+    <string name="btn_c">C</string>
+    <string name="btn_d">D</string>
+</resources>

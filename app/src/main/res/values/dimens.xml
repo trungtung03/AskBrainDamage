@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="five_dp" tools:ignore="MissingDefaultResource">5dp</dimen>
+    <dimen name="o_5_dp">0.5dp</dimen>
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="I6_dp">16dp</dimen>
+    <dimen name="I28_dp">128dp</dimen>
+    <dimen name="twenty_five_dp">25dp</dimen>
+    <dimen name="I5_dp">15dp</dimen>
+    <dimen name="I8_sp">18sp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+    <dimen name="two_hundred_dp">200dp</dimen>
+    <dimen name="two_hundred_and_forty_dp">240dp</dimen>
+    <dimen name="five_five_dp">55dp</dimen>
+    <dimen name="thirty_sp">30sp</dimen>
+    <dimen name="I6_sp">16sp</dimen>
+    <dimen name="I5_sp">15sp</dimen>
+</resources>

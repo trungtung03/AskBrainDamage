@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ecf6f9"
+    android:orientation="vertical"
+    android:padding="@dimen/I6_dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_video" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:gravity="center"
+        android:text="@string/notifi"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/I8_sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_watch"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_press_effect"
+            android:text="@string/watch_now"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="@dimen/ten_dp"
+            android:layout_height="@dimen/ten_dp" />
+
+        <Button
+            android:id="@+id/btn_later"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_press_effect"
+            android:text="@string/watch_later"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>
